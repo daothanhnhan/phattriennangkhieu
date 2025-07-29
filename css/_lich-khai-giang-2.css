@@ -1,0 +1,23 @@
+.vk-lich-khai-giang-2 .vk-khai-giang-2-header {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+  .vk-lich-khai-giang-2 .vk-khai-giang-2-header h3 {
+    font-family: 'UTMBebas', serif;
+    font-size: 18px;
+    letter-spacing: 5.4px;
+    text-align: center;
+    color: #f05523;
+    margin: 0px; }
+  .vk-lich-khai-giang-2 .vk-khai-giang-2-header h2 {
+    font-family: 'UTMBebas', serif;
+    font-size: 48px;
+    text-align: center;
+    color: #222222;
+    margin: 0px;
+    margin-top: 8px;
+    margin-bottom: 22px; }
+  .vk-lich-khai-giang-2 .vk-khai-giang-2-header .vk-khai-giang-2-line {
+    width: 80px;
+    height: 2px;
+    background-color: #f05523;
+    margin: 0 auto; }

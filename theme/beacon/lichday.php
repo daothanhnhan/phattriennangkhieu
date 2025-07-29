@@ -1,0 +1,1 @@
+<?php include DIR_OTHER."MS_OTHER_BEACON_0001.php";?>

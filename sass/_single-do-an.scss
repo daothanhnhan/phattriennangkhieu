@@ -1,0 +1,214 @@
+.vk-single-do-an{
+  .vk-single-do-an-banner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2{
+      position: absolute;
+      right: 0;
+      left: 0;
+      font-family: 'UTMBebas', serif;
+      font-size: 60px;
+      line-height: 1;
+      text-align: center;
+      color: #ffffff;
+      margin: 0px;
+      @media screen and (max-width: 767px) {
+        font-size: 36px;
+      }
+    }
+  }
+
+  .vk-singer-projet-slided{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    #demo{
+      #vk-owl-demo-singer-slider{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .owl-dots{
+          position: absolute;
+          bottom:0;
+        }
+        .owl-nav{
+          .owl-prev{
+            position: absolute;
+            left: 25%;
+            top:42%;
+            background: none;
+            border: none;
+            &:hover{
+              &:after{
+                color: #f05523;
+                transition: all 0.5s;
+              }
+            }
+            @media screen and (max-width: 767px) {
+              top:33%;
+            }
+            &:after{
+              content: "\f060";
+              display: block;
+              font-family: FontAwesome;
+              font-size: 30px;
+              line-height: 0.87;
+              text-align: left;
+              color: rgba(255, 255, 255, 0.2);
+              transition: all 0.5s;
+            }
+          }
+          .owl-next{
+            position: absolute;
+            right: 25%;
+            top:42%;
+            background: none;
+            border: none;
+            &:hover{
+              &:after{
+                color: #f05523;
+                transition: all 0.5s;
+              }
+            }
+            @media screen and (max-width: 767px) {
+              top:33%;
+            }
+            &:after{
+              content: "\f061";
+              display: block;
+              font-family: FontAwesome;
+              font-size: 30px;
+              line-height: 0.87;
+              text-align: left;
+              color: rgba(255, 255, 255, 0.2);
+              transition: all 0.5s;
+            }
+          }
+        }
+        .cloned{
+          opacity: 0.3;
+        }
+        .active{
+          opacity: 0.3;
+        }
+        .center{
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .vk-singer-project-left{
+    .vk-singer-left-header{
+      h3{
+        font-family: 'UTMBebas', serif;
+        font-size: 18px;
+        letter-spacing: 3.6px;
+        text-align: left;
+        color: #f05523;
+        margin: 0px;
+      }
+      h2{
+        font-family: 'UTMBebas', serif;
+        font-size: 40px;
+        text-align: left;
+        color: #222222;
+        margin: 0px;
+        margin-top: 13px;
+        @media screen and (max-width: 767px) {
+          font-size: 24px;
+        }
+      }
+    }
+    .vk-singer-left-body{
+      margin-top: 51px;
+      margin-bottom: 57px;
+      p{
+        font-family: "Open Sans";
+        font-size: 14px;
+        line-height: 1.86;
+        text-align: left;
+        color: #999999;
+      }
+    }
+    .vk-singer-left-line{
+      width: 300px;
+      height: 1px;
+      background-color: #f0f0f0;
+    }
+    .vk-singer-left-share{
+      margin-bottom: 90px;
+      ul{
+        margin: 0px;
+        padding: 0px;
+        li{
+          list-style-type: none;
+          display: inline-block;
+          margin-right: 19px;
+          h3{
+            font-family: "Open Sans";
+            font-weight: bold;
+            color: #434343;
+            font-size: 14px;
+            text-align: left;
+          }
+          span{
+            a{
+              font-family: FontAwesome;
+              font-size: 14px;
+              line-height: 1.86;
+              text-align: left;
+              color: #999999;
+              margin-right: 20px;
+              transition: all 0.5s;
+              &.active{
+                color: #f05523;
+              }
+              &:hover{
+                color: #f05523;
+                transition: all 0.5s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .vk-singer-project-right{
+    border-left: 1px solid #f0f0f0;
+    ul{
+      padding: 0px;
+      margin: 0px;
+      li{
+        list-style-type: none;
+        border-bottom: 1px solid #f0f0f0;
+        padding-bottom: 27px;
+        padding-top: 28px;
+        &:first-child{
+          padding-top: 0px;
+        }
+        h2{
+          font-family: 'Open Sans', serif;
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 1.86;
+          text-align: left;
+          color: #222222;
+          margin: 0px;
+        }
+        h3{
+          font-family: 'Open Sans', serif;
+          font-size: 14px;
+          font-weight: normal;
+          line-height: 1.86;
+          text-align: left;
+          color: #7b7b7b;
+          margin: 0px;
+
+        }
+      }
+    }
+  }
+}

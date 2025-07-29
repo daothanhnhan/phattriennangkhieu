@@ -1,0 +1,60 @@
+#content3{
+  .vk-course-2-teacher{
+    .vk-course-2-item{
+      margin-top: 60px;
+      margin-bottom: 80px;
+      position: relative;
+      overflow: hidden;
+      -webkit-animation: fadeInScale 0.7s ease-in-out;
+      -moz-animation: fadeInScale 0.7s ease-in-out;
+      animation: fadeInScale 0.7s ease-in-out;
+      img{
+        width: 100%;
+        height: auto;
+      }
+      .vk-item-info{
+        overflow: hidden;
+        min-height: 100px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0 15px;
+        h2{
+          font-family: UTMBebas;
+          font-size: 30px;
+          text-align: center;
+          color: #ffffff;
+        }
+        .vk-item-line{
+          border-top: 1px solid #f05523;
+        }
+        .vk-item-contact{
+          text-align: center;
+          margin-top: 17px;
+          margin-bottom: 16px;
+          ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            li{
+              display: inline-block;
+              margin-right: 25px;
+              &:last-child{
+                margin-right: 0px;
+              }
+              a{
+                color: #7b7b7b;
+                font-size: 14px;
+                &.vk-active{
+                  color: #f05523;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

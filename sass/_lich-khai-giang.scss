@@ -1,0 +1,159 @@
+.vk-lich-khai-giang{
+  background-color: #f9f9f9;
+  .container{
+    width: 1200px;
+    @media screen and (max-width: 1216px) {
+      width: 100%;
+    }
+  }
+  .vk-lich-khai-giang-header{
+    margin-top: 80px;
+    h3{
+      font-family: 'UTMBebas', serif;
+      font-size: 18px;
+      letter-spacing: 5.4px;
+      text-align: center;
+      color: #f05523;
+      margin: 0px;
+    }
+    h2{
+      font-family: 'UTMBebas', serif;
+      font-size: 48px;
+      text-align: center;
+      color: #222222;
+      margin: 0px;
+      margin-top: 8px;
+      margin-bottom: 22px;
+
+    }
+    .vk-lich-khai-giang-line{
+      width: 80px;
+      height: 2px;
+      background-color: #f05523;
+      margin: 0 auto;
+      margin-bottom: 80px;
+    }
+  }
+  .vk-lich-khai-giang-body{
+    .vk-khai-giang-item{
+      border-top: 2px solid #f05523;
+      background: white;
+      position: relative;
+      margin-bottom: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    ul{
+      padding: 0px ;
+      margin: 0px;
+      position: relative;
+      li{
+        list-style-type: none;
+        &.vk-lich-khai-giang-left{
+          float: left;
+          position: absolute;
+          margin-right: 30px;
+          top: 9px;
+          .vk-lich-sub{
+            width: 100px;
+            height: 140px;
+            border: solid 2px #f05523;
+            @media screen and (max-width: 767px) {
+              width: 80px;
+              height: 120px;
+            }
+            li{
+              h3{
+                font-family: 'UTMBebas', serif;
+                font-size: 60px;
+                line-height: 1;
+                text-align: center;
+                color: #f05523;
+                margin: 0px;
+              }
+              h4{
+                font-family: 'UTMBebas', serif;
+                font-size: 24px;
+                line-height: 2.5;
+                text-align: center;
+                color: #f05523;
+                margin: 0px;
+
+              }
+            }
+          }
+        }
+        &.vk-lich-khai-giang-right{
+          padding-left: 130px;
+          @media screen and (max-width: 767px) {
+            padding-left: 100px;
+          }
+          .vk-lich-right-title{
+            margin-top: 30px;
+            margin-bottom: 24px;
+            h2{
+              font-family: 'UTMBebas', serif;
+              font-size: 30px;
+              text-align: left;
+              color: #222222;
+              margin: 0px;
+              @media screen and (max-width: 767px) {
+                font-size: 24px;
+              }
+            }
+          }
+          .vk-lich-right-content{
+            ul{
+              li{
+                font-family: 'Open Sans', serif;
+                font-size: 14px;
+                line-height: 2.14;
+                text-align: left;
+                font-weight: bold;
+                color: #222222;
+                .fa{
+                  font-size: 14px;
+                  line-height: 2.14;
+                  text-align: left;
+                  font-family: FontAwesome;
+                  color: #f05523;
+                  margin-right: 10px;
+                }
+                span{
+                  font-family: 'Open Sans', serif;
+                  font-size: 14px;
+                  line-height: 2.14;
+                  text-align: left;
+                  font-weight: normal;
+                  color: #7b7b7b;
+                }
+              }
+            }
+          }
+          .vk-lich-right-button{
+            .btn{
+              background: #f05523;
+              color: white;
+              font-family: 'UTMBebas';
+              font-size: 20px;
+              padding: 8px 30px;
+              -webkit-transition: 0.5s;
+              -moz-transition: 0.5s;
+              -ms-transition: 0.5s;
+              -o-transition: 0.5s;
+              transition: 0.5s;
+              border-radius: 0px;
+              margin-top: 30px;
+              margin-bottom: 30px;
+              border: 1px solid #f05523;
+              &:hover{
+                background: white;
+                color: #f05523;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

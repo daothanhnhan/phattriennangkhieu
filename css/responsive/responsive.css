@@ -1,0 +1,19 @@
+@media screen and (max-width: 991px){
+	.vk-header .top-bar{
+		display: none !important;
+	}
+	.vk-header .nav-bar .vk-dk-learn{
+		display: none !important;	
+	}
+	.logo img{
+		width: 40% !important;
+	}
+	.vk-header .nav-bar .menu-top .menu_icon{
+	    top: -160px !important;
+	    right: 28px !important;
+	}
+	.vk-header .nav-bar .logo{
+		margin-top: 1px !important;
+		margin-bottom: 1px !important;
+	}
+}

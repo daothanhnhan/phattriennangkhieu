@@ -1,0 +1,81 @@
+.vk-career{
+  .vk-career-item{
+    margin-bottom: 60px;
+    ul{
+      margin: 0px;
+      padding: 0px;
+      li{
+        list-style-type: none;
+        &.vk-career-item-left{
+          float: left;
+          //width: 100px;
+          //height: 140px;
+          //border: solid 5px #f05523;
+          margin-right: 30px;
+
+          h1{
+            font-family: 'UTMBebas', serif;
+            font-size: 100px;
+            //line-height: 0.26;
+            text-align: center;
+            color: #f05523;
+            margin: 0px;
+          }
+        }
+        &.vk-career-item-right{
+          padding-left: 130px;
+          .vk-career-item-right-content{
+            border-bottom: 1px solid #e9e9e9;
+            padding-bottom: 23px;
+            ul{
+              li{
+                font-family: 'Open Sans', serif;
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 2.14;
+                text-align: left;
+                color: #222222;
+                h2{
+                  a{
+                    font-family: 'UTMBebas', serif;
+                    font-size: 30px;
+                    line-height: 0.87;
+                    text-align: left;
+                    color: #222222;
+                    text-decoration: none;
+                    &:hover{
+                      color: #f05523;
+                    }
+
+                  }
+                }
+                .fa{
+                  font-family: FontAwesome;
+                  font-weight: normal;
+                  color: #f05523;
+                  font-size: 14px;
+                }
+                span{
+                  font-family: 'Open Sans', serif;
+                  font-size: 14px;
+                  line-height: 2.14;
+                  text-align: left;
+                  color: #7b7b7b;
+                }
+                p{
+                  font-family: 'Open Sans', serif;
+                  font-size: 14px;
+                  line-height: 2.14;
+                  text-align: left;
+                  font-weight: normal;
+                  color: #7b7b7b;
+                }
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+.footer-area-top {
+  background-color: #222222; }
+  .footer-area-top .container {
+    width: 1200px; }
+    @media screen and (max-width: 1216px) {
+      .footer-area-top .container {
+        width: 100%; } }
+  .footer-area-top .area-footer {
+    margin-top: 100px;
+    margin-bottom: 60px; }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-area-top .footer-box {
+      width: 100%; } }
+  .footer-area-top .footer-box h1 {
+    font-size: 30px;
+    font-family: 'UTMBebas', serif;
+    color: white;
+    font-weight: normal;
+    margin: 0px; }
+  .footer-area-top .footer-box ul.footer-contact {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    margin-top: 40px;
+    font-weight: normal; }
+    .footer-area-top .footer-box ul.footer-contact li {
+      position: relative;
+      display: block;
+      line-height: 26px;
+      margin-bottom: 12px;
+      padding-left: 30px;
+      color: #7b7b7b; }
+      .footer-area-top .footer-box ul.footer-contact li .icon {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        font-size: 16px;
+        line-height: 26px; }
+      .footer-area-top .footer-box ul.footer-contact li i {
+        color: #f05523;
+        padding-right: 17px; }
+      .footer-area-top .footer-box ul.footer-contact li span {
+        color: white; }
+  .footer-area-top .footer-box ul.featured-links {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    margin-top: 38px; }
+    .footer-area-top .footer-box ul.featured-links li {
+      padding-bottom: 20px; }
+      .footer-area-top .footer-box ul.featured-links li a {
+        color: #7b7b7b;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px; }
+        .footer-area-top .footer-box ul.featured-links li a:hover {
+          text-decoration: none;
+          color: #f05523; }
+      .footer-area-top .footer-box ul.featured-links li:before {
+        content: "\e628";
+        left: 0;
+        font-family: themify;
+        color: #7b7b7b;
+        top: 0;
+        padding-right: 11px;
+        font-size: 13px; }
+  .footer-area-top .footer-box ul.featured-links-social {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    margin-top: 35px; }
+    .footer-area-top .footer-box ul.featured-links-social li {
+      margin-bottom: 15px; }
+      .footer-area-top .footer-box ul.featured-links-social li a {
+        color: #7b7b7b;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px; }
+        .footer-area-top .footer-box ul.featured-links-social li a:hover {
+          text-decoration: none; }
+      .footer-area-top .footer-box ul.featured-links-social li i {
+        width: 44px;
+        height: 44px;
+        border: 1px solid #7b7b7b;
+        text-align: center;
+        line-height: 35px;
+        margin-right: 19px;
+        color: #7b7b7b;
+        padding: 4px; }
+  .footer-area-top .footer-box ul.my-project {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    margin-top: 35px; }
+    .footer-area-top .footer-box ul.my-project li {
+      width: 33.33%;
+      float: left;
+      padding: 0.5px; }
+      .footer-area-top .footer-box ul.my-project li img {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        vertical-align: bottom; }
+
+.footer-area-tag {
+  border-top: 1px solid #7b7b7b;
+  padding: 30px 0px; }
+  .footer-area-tag ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-align: center;
+    line-height: 27px; }
+    .footer-area-tag ul li {
+      display: inline-block;
+      color: #7b7b7b; }
+      .footer-area-tag ul li a {
+        color: #7b7b7b;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        padding: 6px; }
+        .footer-area-tag ul li a:hover {
+          text-decoration: none;
+          color: #f05523; }
+
+.footer-area-bottom {
+  padding: 20px 0px;
+  color: #7b7b7b;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  border-top: 1px solid #7b7b7b;
+  line-height: 30px; }
+  .footer-area-bottom span {
+    color: #f05523; }

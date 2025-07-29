@@ -1,0 +1,46 @@
+.vk-thong-diep{
+  margin-top: 30px;
+  img{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+  }
+  h1{
+    font-family: 'UTMBebas', serif;
+    font-size: 30px;
+    line-height: 2;
+    text-align: left;
+    color: #222222;
+    border-bottom: 1px solid #f0f0f0 ;
+    span{
+      color: #f05523;
+    }
+  }
+  p{
+    font-family: 'Open Sans', serif;
+    font-size: 14px;
+    line-height: 1.86;
+    text-align: left;
+    color: #7b7b7b;
+  }
+  .vk-thong-diep-chu-ky{
+    margin-top: 57px;
+    position: relative !important;
+    img{
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+    h3{
+      font-family: 'Open Sans', serif;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 4.29;
+      text-align: left;
+      color: #222222;
+      span{
+        color: #f05523;
+      }
+    }
+  }
+}

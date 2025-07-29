@@ -1,0 +1,191 @@
+//sass for footer
+//====================================================================
+.footer-area-top {
+  position: relative;
+  z-index: 12345;
+  //background: url("../images/bg.jpg");
+  .container{
+    width: 1200px;
+    @media screen and (max-width: 1216px) {
+      width: 100%;
+    }
+  }
+  background-color: #222222;
+  .area-footer {
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+  .footer-box {
+    @media screen and (min-width:768px ) and (max-width: 991px) {
+      width: 100%;
+    }
+    h1 {
+      font-size: 30px;
+      font-family: 'UTMBebas', serif;
+      color: white;
+      font-weight: normal;
+      margin: 0px;
+    }
+    ul.footer-contact {
+      padding: 0px;
+      margin: 0px;
+      list-style-type: none;
+      margin-top: 40px;
+      //font-family: 'UTMBebas', serif;
+      font-weight: normal;
+      li {
+        position: relative;
+        display: block;
+        line-height: 26px;
+        margin-bottom: 12px;
+        padding-left: 30px;
+        color: #7b7b7b;
+        font-family: 'Open Sans', sans-serif;
+        //font-weight: bold;
+        font-size: 14px;
+        .icon{
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          font-size: 16px;
+          line-height: 26px;
+        }
+        i {
+          color: #f05523;
+          padding-right: 17px;
+        }
+        span {
+          color: white;
+        }
+
+      }
+    }
+    ul.featured-links {
+      padding: 0px;
+      margin: 0px;
+      list-style-type: none;
+      margin-top: 38px;
+      li {
+        padding-bottom: 20px;
+        a {
+          color: #7b7b7b;
+          font-family: 'Open Sans', sans-serif;
+          //font-weight: bold;
+          font-size: 14px;
+          &:hover {
+            text-decoration: none;
+            color: #f05523;
+          }
+        }
+        &:before {
+          content: "\e628";
+          left: 0;
+          font-family: themify;
+          color: #7b7b7b;
+          top: 0;
+          padding-right: 11px;
+          font-size: 13px;
+
+        }
+      }
+    }
+    ul.featured-links-social {
+      padding: 0px;
+      margin: 0px;
+      list-style-type: none;
+      margin-top: 35px;
+      li {
+        margin-bottom: 15px;
+        a {
+          color: #7b7b7b;
+          font-family: 'Open Sans', sans-serif;
+          //font-weight: bold;
+          font-size: 14px;
+
+        }
+        i {
+          width: 44px;
+          height: 44px;
+          border: 1px solid #7b7b7b;
+          text-align: center;
+          line-height: 35px;
+          margin-right: 19px;
+          color: #7b7b7b;
+          padding: 4px;
+        }
+        &:hover{
+          i{
+            color: #f05523;
+            border: 1px solid #f05523;
+          }
+          a{
+            &:hover {
+              text-decoration: none;
+              color: #f05523;
+            }
+
+          }
+        }
+      }
+    }
+    ul.my-project {
+      padding: 0px;
+      margin: 0px;
+      list-style-type: none;
+      margin-top: 35px;
+      li {
+        width: 33.33%;
+        float: left;
+        padding: 0.5px;
+        img{
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+          vertical-align: bottom;
+        }
+      }
+    }
+  }
+}
+
+.footer-area-tag {
+  border-top: 1px solid #7b7b7b;
+  padding: 30px 0px;
+  ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-align: center;
+    line-height: 27px;
+    li {
+      display: inline-block;
+      color: #7b7b7b;
+
+      a {
+        color: #7b7b7b;
+        font-family: 'Open Sans', sans-serif;
+        //font-weight: bold;
+        font-size: 14px;
+        padding: 6px;
+        &:hover {
+          text-decoration: none;
+          color: #f05523;
+        }
+      }
+    }
+  }
+}
+
+.footer-area-bottom {
+  padding: 20px 0px;
+  color: #7b7b7b;
+  font-family: 'Open Sans', sans-serif;
+  //font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  border-top: 1px solid #7b7b7b;
+  line-height: 30px;
+  span {
+    color: #f05523;
+  }
+}

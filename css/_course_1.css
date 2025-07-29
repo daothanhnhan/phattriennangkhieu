@@ -1,0 +1,20 @@
+.vk-courser-1 .vk-course-1-left h1 {
+  font-family: 'UTMBebas', serif;
+  font-size: 30px;
+  text-align: left;
+  color: #ffffff; }
+
+.vk-courser-1 .vk-course-1-left ul {
+  padding: 0px;
+  margin: 0px; }
+  .vk-courser-1 .vk-course-1-left ul li {
+    list-style-type: none; }
+    .vk-courser-1 .vk-course-1-left ul li h4 .fa {
+      color: #f05523;
+      font-family: FontAwesome;
+      font-size: 14px; }
+    .vk-courser-1 .vk-course-1-left ul li h4 span {
+      color: white;
+      font-family: 'Open Sans', serif;
+      font-size: 14px;
+      font-weight: bold; }

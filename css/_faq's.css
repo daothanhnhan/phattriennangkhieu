@@ -1,0 +1,41 @@
+.vk-faq .vk-accordion-faq {
+  margin-top: 61px; }
+  .vk-faq .vk-accordion-faq h4.vk-accordion-toggle-faq {
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+    margin: 0;
+    padding: 20px 35px;
+    position: relative;
+    font-family: 'Open Sans', serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: #222222; }
+    .vk-faq .vk-accordion-faq h4.vk-accordion-toggle-faq.active:after {
+      content: "\f068";
+      position: absolute;
+      left: 0;
+      top: 22px;
+      font-family: FontAwesome;
+      color: #f05523; }
+    .vk-faq .vk-accordion-faq h4.vk-accordion-toggle-faq.active:before {
+      display: none; }
+    .vk-faq .vk-accordion-faq h4.vk-accordion-toggle-faq:before {
+      content: "\f067";
+      position: absolute;
+      left: 0;
+      top: 20px;
+      font-family: FontAwesome;
+      color: #f05523; }
+  .vk-faq .vk-accordion-faq .vk-accordion-content-faq {
+    display: none; }
+    .vk-faq .vk-accordion-faq .vk-accordion-content-faq p {
+      font-family: 'Open Sans', serif;
+      font-size: 14px;
+      line-height: 26px;
+      text-align: left;
+      color: #7b7b7b;
+      margin-top: 29px;
+      padding-bottom: 27px;
+      border-bottom: 1px solid #f0f0f0;
+      padding-left: 35px; }

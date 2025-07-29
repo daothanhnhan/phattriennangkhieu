@@ -1,0 +1,20 @@
+.vk-thong-diep img {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+
+.vk-thong-diep h1 {
+  font-family: 'UTMBebas', serif;
+  font-size: 30px;
+  line-height: 2;
+  text-align: left;
+  color: #222222; }
+  .vk-thong-diep h1 span {
+    color: #f05523; }
+
+.vk-thong-diep p {
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: left;
+  color: #7b7b7b; }

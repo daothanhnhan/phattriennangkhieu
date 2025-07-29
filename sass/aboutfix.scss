@@ -1,0 +1,289 @@
+.vk-about{
+  background: url("../images/about/bg.jpg") no-repeat;
+  background-size: 38.7%;
+  @media screen and (min-width:768px ) and (max-width: 991px){
+    //background-size: cover;
+  }
+  .container{
+    width: 1200px;
+    @media screen and (max-width: 1216px) {
+      width: 100%;
+    }
+  }
+  .tabs-left {
+    .right-margin{
+      @media screen and (max-width: 991px) {
+        border-left: 15px solid #f05523;
+        margin-top: 0px;
+        margin-left: -15px;
+
+      }
+    }
+  }
+
+  .img-bg{
+    width: 100%;
+    min-height:568px;
+    background: url(../images/ahihi.jpg ) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+  }
+  .overlay{
+  }
+  .nav-tabs > li,
+  .tabs-right > .nav-tabs > li {
+    float: none;
+  }
+
+  .nav-tabs > li > a,
+  .tabs-right > .nav-tabs > li > a {
+    min-width: 74px;
+    margin-right: 0;
+    margin-bottom: 3px;
+  }
+
+  //.nav-tabs {
+  //  float: right;
+  //  overflow: hidden;
+  //  @media screen and (max-width: 991px) {
+  //    width: 100%;
+  //  }
+  //
+  //}
+  .right-margin{
+    margin-top: 30px;
+    margin-bottom: 77px;
+    @media screen  and (max-width: 991px){
+      margin-top: 20px;
+      margin-left: 0px;
+    }
+    button{
+      display: none;
+    }
+  }
+
+  .nav-tabs > li > a {
+    margin-right: -1px;
+    -webkit-border-radius: 0px 0 0 0px;
+    -moz-border-radius: 0px 0 0 0px;
+    border-radius: 0px 0 0px;
+    color: #ffe2d8;
+    font-family: 'UTMBebas';
+    font-size: 24px;
+  }
+  .nav-tabs {
+    border-bottom: none;
+    padding-top: 67px;
+  }
+  .nav-tabs > li {
+    float: none;
+    width: 384px;
+    @media screen and (max-width: 991px) {
+      width: 100%;
+    }
+  }
+  .nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+  }
+
+  .nav-tabs .active > a,
+  .nav-tabs .active > a:hover,
+  .nav-tabs .active > a:focus {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    color: #f05523;
+    text-indent: 20px;
+  }
+  .nav-tabs > li > a:hover {
+    border-color: white;
+  }
+  .nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: white;
+  }
+
+  .vk-course-right{
+    .right-margin{
+      .tab-right-content{
+        .tab-content{
+          .tab-pane{
+            .vk-vnskills-multimedia{
+              h1{
+                font-family: 'UTMBebas', serif;
+                font-size: 24px;
+                text-align: left;
+                color: #222222;
+                margin-top: 60px;
+                margin-bottom: 14px;
+              }
+              .vk-vnskills-multimedia-boder{
+                border: 1px solid #f05523;
+                width: 40px;
+                margin-bottom: 37px;
+
+              }
+              .vk-vnkills-multimedia-text{
+                p{
+                  font-family: 'Open Sans', serif;
+                  font-size: 14px;
+                  line-height: 26px;
+                  text-align: left;
+                  color: #7b7b7b;
+                }
+              }
+            }
+
+            .vk-tm-nhn-pht-trin{
+              h1{
+                font-family: 'UTMBebas', serif;
+                font-size: 24px;
+                text-align: left;
+                color: #222222;
+                margin-top: 60px;
+                margin-bottom: 14px;
+              }
+              .vk-vnskills-multimedia-boder{
+                border: 1px solid #f05523;
+                width: 40px;
+                margin-bottom: 37px;
+
+              }
+              .vk-vnkills-multimedia-text1{
+                p{
+                  font-family: 'Open Sans', serif;
+                  font-size: 14px;
+                  line-height: 26px;
+                  text-align: left;
+                  color: #7b7b7b;
+                }
+              }
+              .vk-vnkills-multimedia-text2{
+                padding-left: 36px;
+                p{
+                  font-family: 'Open Sans', serif;
+                  font-size: 14px;
+                  line-height: 26px;
+                  text-align: left;
+                  color: #7b7b7b;
+                  span{
+                    font-family: 'Open Sans', serif;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #f05523;
+                    margin-right: 7px;
+                  }
+                }
+              }
+            }
+
+            .vk-program-tranny{
+              h1{
+                font-family: 'UTMBebas', serif;
+                font-size: 24px;
+                text-align: left;
+                color: #222222;
+                margin-top: 60px;
+                margin-bottom: 14px;
+              }
+              .vk-vnskills-multimedia-boder{
+                border: 1px solid #f05523;
+                width: 40px;
+                margin-bottom: 37px;
+
+              }
+              .vk-vnkills-multimedia-text{
+                padding-left: 36px;
+                p{
+                  font-family: 'Open Sans', serif;
+                  font-size: 14px;
+                  line-height: 26px;
+                  text-align: left;
+                  color: #7b7b7b;
+                  span{
+                    font-family: 'Open Sans', serif;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #f05523;
+                    margin-right: 7px;
+                  }
+                }
+              }
+            }
+
+            .vk-vnskills-su-menh{
+              h1{
+                font-family: 'UTMBebas', serif;
+                font-size: 24px;
+                text-align: left;
+                color: #222222;
+                margin-top: 60px;
+                margin-bottom: 14px;
+              }
+              .vk-vnskills-multimedia-boder{
+                border: 1px solid #f05523;
+                width: 40px;
+                margin-bottom: 37px;
+
+              }
+              .vk-vnkills-multimedia-text{
+                p{
+                  font-family: 'Open Sans', serif;
+                  font-size: 14px;
+                  line-height: 26px;
+                  text-align: left;
+                  color: #7b7b7b;
+                }
+              }
+            }
+
+            .vk-gia-tri-cot-loi{
+              h1{
+                font-family: 'UTMBebas', serif;
+                font-size: 24px;
+                text-align: left;
+                color: #222222;
+                margin-top: 60px;
+                margin-bottom: 14px;
+              }
+              .vk-vnskills-multimedia-boder{
+                border: 1px solid #f05523;
+                width: 40px;
+                margin-bottom: 37px;
+
+              }
+              .vk-vnkills-multimedia-text1{
+                p{
+                  font-family: 'Open Sans', serif;
+                  font-size: 14px;
+                  line-height: 26px;
+                  text-align: left;
+                  color: #7b7b7b;
+                }
+              }
+              .vk-vnkills-multimedia-text2{
+                padding-left: 36px;
+                p{
+                  font-family: 'Open Sans', serif;
+                  font-size: 14px;
+                  line-height: 26px;
+                  text-align: left;
+                  color: #7b7b7b;
+                  span{
+                    font-family: 'Open Sans', serif;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #f05523;
+                    margin-right: 7px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

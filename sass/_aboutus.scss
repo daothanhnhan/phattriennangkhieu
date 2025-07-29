@@ -1,0 +1,359 @@
+.vk-about-us{
+  .container{
+    width: 1200px;
+    @media screen and (max-width: 1216px) {
+      width: 100%;
+    }
+  }
+  .vk-about-us-banner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h3{
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: auto;
+      top: auto;
+      font-family: 'UTMBebas', serif;
+      font-size: 60px;
+      line-height: 1;
+      text-align: center;
+      color: #ffffff;
+      margin: 0px;
+      @media screen and (max-width: 767px) {
+        font-size: 36px;
+        margin: 0px;
+      }
+    }
+  }
+  .vk-header-about-us-header{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    h3{
+        font-size: 18px;
+        font-family: 'UTMBebas', serif;
+        color: rgb(240, 85, 35);
+        text-transform: uppercase;
+        margin: 0px;
+      letter-spacing: 5.4px;
+
+    }
+    h1{
+      font-size: 48px;
+      font-family: 'UTMBebas', serif;
+      text-transform: uppercase;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      @media screen and (max-width: 767px) {
+        font-size: 36px;
+      }
+
+    }
+    .vk-header-about-us-border{
+      border: 1px solid #f05523;
+      width: 80px;
+      margin: 0px auto;
+    }
+  }
+  .vk-body-about-us{
+    .vk-body-about-us-left{
+      h1 {
+        margin: 0px;
+        margin-bottom: 37px;
+        span{
+          font-size: 24px;
+          font-family: 'UTMBebas', serif;
+          color: rgb(34, 34, 34);
+          text-transform: uppercase;
+          @media screen and (max-width: 767px) {
+            font-size: 20px;
+          }
+          &.vk-text-color-orange-1{
+            color: rgb(240, 85, 35);
+          }
+          &.vk-line-about-us{
+            margin-right: 20px;
+            @media screen and (max-width: 767px) {
+              margin-right: 5px;
+            }
+          }
+        }
+        &:before{
+          content: '';
+          height: 1px;
+          width: 20px;
+          background-color: rgb(240, 85, 35);
+          top: 0;
+          bottom: 0;
+          margin: auto;
+        }
+      }
+      .vk-body-about-us-text{
+        .vk-body-about-us-text1{
+          p{
+              font-size: 14px;
+              font-family: 'Open Sans', serif;
+              color: rgb(123, 123, 123);
+              line-height: 26px;
+
+          }
+        }
+        .vk-body-about-us-text2{
+          p{
+            font-size: 14px;
+            font-family: 'Open Sans', serif;
+            color: rgb(123, 123, 123);
+            line-height: 26px;
+          }
+        }
+      }
+    }
+    .vk-body-about-us-right{
+      iframe{
+        width:100%;
+        height: 440px;
+        overflow: hidden;
+      }
+    }
+  }
+  .vk-body-about-us-button{
+    margin-top: 37px;
+    margin-bottom: 76px;
+    width: 171px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    background-color: #f05523;
+    padding: 0px;
+    z-index: 3;
+    a {
+      h2{
+        font-family: 'UTMBebas', serif;
+        font-size: 18px;
+        padding-left: 30px;
+        color: #ffffff;
+        margin: 0px;
+        padding-top: 15px;
+        padding-bottom: 17px;
+      }
+      .vk-btn-img-about-us{
+        float: left;
+        position: absolute;
+        right: 0;
+        top: 0;
+        overflow: hidden;
+        z-index: -1;
+        .trigle{
+          position: absolute;
+          top: -10px;
+          height: 141%;
+          left: 0;
+          width: 87px;
+          background-color: #f05523;
+          -webkit-transform: rotate(21deg) translateX(-72px);
+          -ms-transform: rotate(21deg) translateX(-72px);
+          transform: rotate(20deg) translateX(-77px);
+        }
+      }
+      &:hover{
+        text-decoration: none;
+      }
+    }
+    &:hover{
+      background: white;
+      border: 1px solid #f05523;
+      transition: all 0.5s;
+      a{
+        transition: 0.3s;
+        h2{
+          color: #f05523;
+        }
+        .vk-btn-img-about-us{
+          .trigle{
+            background: white;
+            transition:  all 0.2s;
+          }
+        }
+      }
+    }
+  }
+  .vk-our-staffs-about-us{
+    background: url("../images/aboutus/bg.jpg") no-repeat;
+    background-size: cover;
+    .vk-our-staffs-title{
+      h3{
+        font-family: 'UTMBebas', serif;
+        font-size: 18px;
+        letter-spacing: 5.4px;
+        text-align: center;
+        color: #f05523;
+        margin: 0px;
+        margin-top: 80px;
+        margin-bottom: 8px;
+      }
+      h2{
+        font-family: 'UTMBebas', serif;
+        font-size: 48px;
+        text-align: center;
+        color: #ffffff;
+        @media screen and (max-width: 767px) {
+          font-size: 36px;
+        }
+      }
+      .vk-our-staffs-line{
+        border: 1px solid #f05523;
+        width: 80px;
+        margin: 0px auto;
+        margin-top: 29px;
+      }
+    }
+    .vk-our-staffs-items{
+      .vk-item{
+        margin-top: 60px;
+        margin-bottom: 80px;
+        position: relative;
+        overflow: hidden;
+        img{
+          width: 100%;
+          height: auto;
+        }
+        .vk-item-info{
+          overflow: hidden;
+          min-height: 100px;
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+          left: 0px;
+          background: rgba(0, 0, 0, 0.7);
+          padding: 0 15px;
+          h2{
+            font-family: UTMBebas;
+            font-size: 30px;
+            text-align: center;
+            color: #ffffff;
+          }
+          .vk-item-line{
+            border-top: 1px solid #f05523;
+          }
+          .vk-item-contact{
+            text-align: center;
+            margin-top: 17px;
+            margin-bottom: 16px;
+            ul{
+              list-style-type: none;
+              margin: 0px;
+              padding: 0px;
+              li{
+                display: inline-block;
+                margin-right: 25px;
+                &:last-child{
+                  margin-right: 0px;
+                }
+                a{
+                  color: #7b7b7b;
+                  font-size: 14px;
+                  &.vk-active{
+                    color: #f05523;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .vk-why-choose-us-about-us{
+    .vk-why-choose-us-left{
+      margin: 80px 0px;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    .vk-why-choose-us-right{
+      margin: 80px 0px;
+      display: block !important;
+      h3{
+        font-family: 'UTMBebas', serif;
+        font-size: 18px;
+        letter-spacing: 5.4px;
+        text-align: left;
+        color: #f05523;
+      }
+      h2{
+        font-family: 'UTMBebas', serif;
+        font-size: 48px;
+        text-align: left;
+        color: #222222;
+        @media screen and (max-width: 767px) {
+          font-size: 36px;
+        }
+      }
+      .vk-our-staffs-line{
+        border: 1px solid #f05523;
+        width: 80px;
+        margin-top: 22px;
+      }
+
+      .vk-accordion{
+        margin-top: 61px;
+        @media screen and (max-width: 767px) {
+          margin-top: 30px;
+        }
+        h4{
+          &.vk-accordion-toggle {
+            border-bottom: 1px solid #f0f0f0;
+            cursor: pointer;
+            margin: 0;
+            padding: 20px 35px;
+            position: relative;
+            font-family: 'Open Sans', serif;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: left;
+            color: #222222;
+            &.active{
+              &:after{
+                content:"\f068";
+                position:absolute;
+                left:0;
+                top:22px;
+                font-family: FontAwesome;
+                color: #f05523;
+              }
+              &:before{
+                display: none;
+              }
+            }
+            &:before{
+              content:"\f067";
+              position:absolute;
+              left:0;
+              top:20px;
+              font-family: FontAwesome;
+              color: #f05523;
+            }
+          }
+        }
+        .vk-accordion-content {
+          display: none;
+          p{
+            font-family: 'Open Sans', serif;
+            font-size: 14px;
+            line-height: 26px;
+            text-align: left;
+            color: #7b7b7b;
+            margin-top: 29px;
+            padding-bottom: 27px;
+            border-bottom: 1px solid #f0f0f0;
+            padding-left: 35px;
+          }
+        }
+      }
+    }
+  }
+}
